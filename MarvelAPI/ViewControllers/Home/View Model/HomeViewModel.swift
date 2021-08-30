@@ -79,11 +79,11 @@ struct HomeViewModel:TableContentProtocol {
                 }
             }
             
-            var creatorsList:[[String:String]] = []
+            var creatorsList:[(name:String, title:String)] = []
             if let creatorOBj = result.creators, let items = creatorOBj.items  {
                 items.forEach { item in
                     if let name = item.name, let role = item.role {
-                        creatorsList.append([role : name])
+                        creatorsList.append((name: name, title: role))
                     }
                 }
             }

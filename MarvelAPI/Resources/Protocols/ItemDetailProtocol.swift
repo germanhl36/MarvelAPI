@@ -7,11 +7,10 @@
 
 import Foundation
 protocol ItemDetailProtocol {
-    var title:String {get set}
-    var description:String  {get set}
-    var thumbnail:String  {get set}
-    var creators:[[String:String]]  {get set}
-    var images:[String]  {get set}
-    var pageCount:Int  {get set}
-    
+    func getTitle() -> NSAttributedString
+    func getDescription() -> NSAttributedString
+    func getCreators() -> [NSAttributedString]
+    func getPageCount() -> NSAttributedString
+    func getThumbnail() -> String
+    func getImages() -> [String]
 }

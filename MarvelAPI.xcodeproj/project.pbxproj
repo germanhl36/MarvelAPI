@@ -29,8 +29,10 @@
 		398C8D6D26DAF60700ACE6E8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D6C26DAF60700ACE6E8 /* DetailsViewController.swift */; };
 		398C8D7326DAF91B00ACE6E8 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7226DAF91B00ACE6E8 /* ShadowView.swift */; };
 		398C8D7526DAFE8300ACE6E8 /* ItemDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7426DAFE8300ACE6E8 /* ItemDetailProtocol.swift */; };
-		398C8D7826DBF50C00ACE6E8 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7726DBF50C00ACE6E8 /* TableHeaderView.swift */; };
 		398C8D7C26DC0CEB00ACE6E8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7B26DC0CEB00ACE6E8 /* HeaderView.swift */; };
+		398C8D7E26DC42DA00ACE6E8 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7D26DC42DA00ACE6E8 /* CircularTransition.swift */; };
+		398C8D8026DD422900ACE6E8 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D7F26DD422900ACE6E8 /* ImagesCollectionViewCell.swift */; };
+		398C8D8226DD590600ACE6E8 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C8D8126DD590600ACE6E8 /* LeftAlignedCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,8 +81,10 @@
 		398C8D6C26DAF60700ACE6E8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		398C8D7226DAF91B00ACE6E8 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		398C8D7426DAFE8300ACE6E8 /* ItemDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailProtocol.swift; sourceTree = "<group>"; };
-		398C8D7726DBF50C00ACE6E8 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
 		398C8D7B26DC0CEB00ACE6E8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		398C8D7D26DC42DA00ACE6E8 /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		398C8D7F26DD422900ACE6E8 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		398C8D8126DD590600ACE6E8 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 				398C8D4A26D9A3AB00ACE6E8 /* Constants.swift */,
 				398C8D5726D9AFD900ACE6E8 /* Box.swift */,
 				398C8D5B26D9B2C900ACE6E8 /* HTTPManager.swift */,
+				398C8D7D26DC42DA00ACE6E8 /* CircularTransition.swift */,
+				398C8D8126DD590600ACE6E8 /* LeftAlignedCollectionViewFlowLayout.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -197,7 +203,6 @@
 		398C8D4F26D9ADF900ACE6E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				398C8D7726DBF50C00ACE6E8 /* TableHeaderView.swift */,
 				398C8D1A26D99F6200ACE6E8 /* HomeViewController.swift */,
 				398C8D5526D9AEA500ACE6E8 /* ComicTableViewCell.swift */,
 			);
@@ -252,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				398C8D6C26DAF60700ACE6E8 /* DetailsViewController.swift */,
+				398C8D7F26DD422900ACE6E8 /* ImagesCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -442,20 +448,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				398C8D7826DBF50C00ACE6E8 /* TableHeaderView.swift in Sources */,
 				398C8D7526DAFE8300ACE6E8 /* ItemDetailProtocol.swift in Sources */,
 				398C8D5826D9AFD900ACE6E8 /* Box.swift in Sources */,
+				398C8D8026DD422900ACE6E8 /* ImagesCollectionViewCell.swift in Sources */,
 				398C8D4B26D9A3AB00ACE6E8 /* Constants.swift in Sources */,
 				398C8D5626D9AEA500ACE6E8 /* ComicTableViewCell.swift in Sources */,
 				398C8D5A26D9B12E00ACE6E8 /* ComicModel.swift in Sources */,
 				398C8D5F26D9BE7E00ACE6E8 /* String+Extensions.swift in Sources */,
 				398C8D6626D9DD1900ACE6E8 /* BaseViewController.swift in Sources */,
 				398C8D7326DAF91B00ACE6E8 /* ShadowView.swift in Sources */,
+				398C8D7E26DC42DA00ACE6E8 /* CircularTransition.swift in Sources */,
 				398C8D5226D9AE3100ACE6E8 /* HomeViewModel.swift in Sources */,
 				398C8D6426D9DB8C00ACE6E8 /* TableViewContentProtocol.swift in Sources */,
 				398C8D1B26D99F6200ACE6E8 /* HomeViewController.swift in Sources */,
 				398C8D1726D99F6200ACE6E8 /* AppDelegate.swift in Sources */,
 				398C8D1926D99F6200ACE6E8 /* SceneDelegate.swift in Sources */,
+				398C8D8226DD590600ACE6E8 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				398C8D7C26DC0CEB00ACE6E8 /* HeaderView.swift in Sources */,
 				398C8D5C26D9B2C900ACE6E8 /* HTTPManager.swift in Sources */,
 				398C8D6126D9D4D100ACE6E8 /* ImageView+Extensions.swift in Sources */,

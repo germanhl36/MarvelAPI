@@ -19,8 +19,8 @@ class ComicTableViewCell: UITableViewCell {
     
     func config(with vm:ItemDetailProtocol) {
         self.vm = vm
-        titleLabel.text = self.vm.title
-        self.thumbnailImageView.downloadImage(url: self.vm.thumbnail, placeHolder: UIImage(named: "marvel_logo")!)
+        titleLabel.text = self.vm.getTitle().string
+        self.thumbnailImageView.downloadImage(url: self.vm.getThumbnail(), placeHolder: UIImage(named: "marvel_logo")!)
     }
     
 }

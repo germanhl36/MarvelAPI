@@ -27,8 +27,8 @@ class HeaderView: UIView {
         path.move(to: CGPoint(x: 0, y: 0))
         path.addLine(to: CGPoint(x: self.frame.width, y: 0))
         path.addLine(to: CGPoint(x: self.frame.width, y: self.frame.height))
-        
-        
+
+
         path.addLine(to: CGPoint(x: self.frame.width, y: self.frame.height - tableHeaderViewCutaway))
         path.addLine(to: CGPoint(x: self.frame.width / 2.0, y: self.frame.height))
         path.addLine(to: CGPoint(x: 0, y: self.frame.height - tableHeaderViewCutaway))
