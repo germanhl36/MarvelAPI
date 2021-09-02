@@ -18,7 +18,7 @@ struct HomeViewModelMock:TableContentProtocol {
 
     
     func getItems(offset: Int) {
-        let url = Bundle(for: MarvelAPITests.self).url(forResource: "ComicsAPIResponse", withExtension: "json")
+        let url = Bundle(for: HomeViewControllerTests.self).url(forResource: "ComicsAPIResponse", withExtension: "json")
         guard let dataURL = url, let data = try? Data(contentsOf: dataURL) else {
              fatalError("Couldn't read data.json file")
         }

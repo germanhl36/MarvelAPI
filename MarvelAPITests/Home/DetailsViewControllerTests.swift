@@ -58,6 +58,21 @@ class DetailsViewControllerTests: XCTestCase {
         XCTAssertTrue(closeButtonActions.contains("closeButtonTapped:"))
     }
     
+    func test_collectionView_numberOfItemsInSection() {
+        let imageCount = detailVM.getImages().count
+        
+        XCTAssertTrue(imageCount == sutViewController.collectionView(sutViewController.imagesCollectionView, numberOfItemsInSection: 0),"The numberOfItemsInSection function returned a number different than the getImages().count function of the model")
+    }
+    
+    func test_collectionView_numberOfItemsInSection_NotNil(){
+        XCTAssertNotNil(sutViewController.collectionView(sutViewController.imagesCollectionView, numberOfItemsInSection: 0), "The numberOfRowsInSection function returned nil")
+    }
+    
+    func test_tableView_CellForRow_NotNil(){
+        
+        XCTAssertNotNil(sutViewController.collectionView(sutViewController.imagesCollectionView, cellForItemAt: IndexPath(item: 0, section: 0)), "The cellForItemAt function returned nil ")
+    }
+    
     func makeSUT() -> DetailsViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let sut = storyboard.instantiateViewController(identifier: "DetailsViewController") as! DetailsViewController

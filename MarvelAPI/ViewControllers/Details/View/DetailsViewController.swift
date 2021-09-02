@@ -50,6 +50,8 @@ extension DetailsViewController {
 
 extension DetailsViewController {
     private func setupUI() {
+        self.imagesCollectionView.reloadData()
+
         self.thumbnailImageView.downloadImage(url: self.vm.getThumbnail(), placeHolder: UIImage(named: "marvel_logo")!)
 
         let content = NSMutableAttributedString()
@@ -96,7 +98,6 @@ extension DetailsViewController {
         scrollView.layoutIfNeeded()
         
         
-        self.imagesCollectionView.reloadData()
     }
 }
 
