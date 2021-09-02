@@ -39,4 +39,13 @@ extension String {
         return md5Base64
     }
     
+    /// Converts HTML string to a `NSAttributedString`
+    
+    var htmlString: String? {
+        if let attr = try? NSAttributedString(data: Data(utf8), options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue], documentAttributes: nil) {
+            return attr.string
+        } else {
+            return nil
+        }
+    }
 }

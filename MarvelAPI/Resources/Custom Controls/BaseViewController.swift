@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 class BaseViewController: UIViewController {
-    var clearBackgroundView:UIView = {
+    private var clearBackgroundView:UIView = {
         let view = UIView()
         view.backgroundColor = .clear
         return view
     }()
-    var loadingView:UIView = {
+    private var loadingView:UIView = {
         let container = UIView()
         container.isHidden = true
         container.backgroundColor = UIColor.red.withAlphaComponent(0.5)
@@ -21,20 +21,20 @@ class BaseViewController: UIViewController {
         return container
     }()
     
-    var loadingIndicator:UIActivityIndicatorView = {
+    private var loadingIndicator:UIActivityIndicatorView = {
         let indicator = UIActivityIndicatorView(style: .medium)
         indicator.hidesWhenStopped = false
         return indicator
     }()
     
-    var loadingLabel:UILabel = {
+    private var loadingLabel:UILabel = {
        let label = UILabel()
         label.text = "Loading"
         label.textColor = .white
         label.font = .systemFont(ofSize: 14, weight: .medium)
         return label
     }()
-    var stackView:UIStackView = {
+    private var stackViewForLoading:UIStackView = {
         let stack = UIStackView()
         stack.alignment = .center
         stack.distribution = .fillProportionally
@@ -54,12 +54,12 @@ extension BaseViewController {
     private func configLoadingView(){
         self.view.addSubview(clearBackgroundView)
         clearBackgroundView.addSubview(loadingView)
-        loadingView.addSubview(stackView)
+        loadingView.addSubview(stackViewForLoading)
         
         clearBackgroundView.translatesAutoresizingMaskIntoConstraints = false
         loadingView.translatesAutoresizingMaskIntoConstraints = false
         loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
-        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackViewForLoading.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             clearBackgroundView.topAnchor.constraint(equalTo: self.view.topAnchor),
@@ -72,11 +72,11 @@ extension BaseViewController {
             loadingView.heightAnchor.constraint(equalToConstant: 100),
             loadingView.widthAnchor.constraint(equalToConstant: 100),
             
-            stackView.centerXAnchor.constraint(equalTo: loadingView.centerXAnchor),
-            stackView.centerYAnchor.constraint(equalTo: loadingView.centerYAnchor)
+            stackViewForLoading.centerXAnchor.constraint(equalTo: loadingView.centerXAnchor),
+            stackViewForLoading.centerYAnchor.constraint(equalTo: loadingView.centerYAnchor)
         ])
-        stackView.addArrangedSubview(loadingIndicator)
-        stackView.addArrangedSubview(loadingLabel)
+        stackViewForLoading.addArrangedSubview(loadingIndicator)
+        stackViewForLoading.addArrangedSubview(loadingLabel)
         
         hideLoadingIndicator()
     }

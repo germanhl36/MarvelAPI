@@ -1,62 +1,39 @@
 //
-//  HomeViewModel.swift
-//  MarvelAPI
+//  HomeViewModelMock.swift
+//  MarvelAPITests
 //
-//  Created by German Huerta on 27/08/21.
+//  Created by German Huerta on 31/08/21.
 //
 
 import Foundation
-import UIKit
-struct HomeViewModel:TableContentProtocol {
-  
-    private var manager = HTTPManager()
+@testable import MarvelAPI
+
+struct HomeViewModelMock:TableContentProtocol {
+
+    
     private var items:Box<[ItemDetailProtocol]> = Box<[ItemDetailProtocol]>([])
     private var errorHandler:((Error) -> ())?
     private var headerImage:String!
     private var selectionHandler:((Int) ->())?
+
     
-    func getItems(offset:Int = 0) {
-        let currentDate = Date()
-        print(currentDate.description)
-        let timeStamp = currentDate.timeIntervalSince1970.description
-        let md5Data = "\(timeStamp)\(Constants.MARVEL_PRIVATE_KEY)\(Constants.MARVEL_PUBLIC_KEY)"
-       
-
-        var urlComponents = URLComponents(string: Constants.MARVEL_ENDPOINT_COMICS)
-        let apiKeyItem = URLQueryItem(name: "apikey", value: Constants.MARVEL_PUBLIC_KEY)
-        let tsItem = URLQueryItem(name: "ts", value: timeStamp)
-        let hashItem = URLQueryItem(name: "hash", value: md5Data.md5Hex())
-        let limitItem = URLQueryItem(name: "limit", value: String(Constants.MAX_NUMBER_PER_REQUEST))
-        let formatItem = URLQueryItem(name: "format", value: "comic")
-        let orderItem = URLQueryItem(name: "orderBy", value: "title")
-
-        var itemsArray = [tsItem, apiKeyItem, hashItem, limitItem, formatItem, orderItem]
-        if offset != 0 {
-            let offsetItem = URLQueryItem(name: "offset", value: String(offset))
-            itemsArray.append(offsetItem)
+    func getItems(offset: Int) {
+        let url = Bundle(for: HomeViewControllerTests.self).url(forResource: "ComicsAPIResponse", withExtension: "json")
+        guard let dataURL = url, let data = try? Data(contentsOf: dataURL) else {
+             fatalError("Couldn't read data.json file")
         }
-        urlComponents?.queryItems = itemsArray
+        do {
+            let decoder = JSONDecoder()
+            let comicModel = try decoder.decode(ComicModel.self, from: data)
+            if let results = comicModel.data?.results {
+                self.items.value = self.convertResults(results: results)
 
-        if let url  = urlComponents?.url {
-            
-            manager.request(url: url) { (result:Result<ComicModel,Error>) in
-                switch(result) {
-                case .success(let comicModel):
-                    if let results = comicModel.data?.results
-                    {
-                        let comicVMResult =  self.convertResults(results: results)
-                        self.items.value.append(contentsOf: comicVMResult)
-                    }
-                    
-                    break
-                case .failure(let error):
-                    self.errorHandler?(error)
-                    print(error.localizedDescription)
-                    break
-                }
             }
+        }catch {
+            
         }
     }
+    
     
     private func convertResults(results:[Results]) -> [ComicInfoViewModel] {
         let comicVMResult = (results.compactMap({ result -> ComicInfoViewModel in
@@ -97,7 +74,16 @@ struct HomeViewModel:TableContentProtocol {
         
         return comicVMResult
     }
- 
+    
+    func getHeaderImage() -> String {
+        return self.headerImage
+    }
+    
+    mutating func setHeaderImage(imageName name: String) {
+        self.headerImage = name
+    }
+    
+    
     func reloadDataIfNeeded(action:@escaping ()->()){
         self.items.bind {_ in
             action()
@@ -112,25 +98,15 @@ struct HomeViewModel:TableContentProtocol {
         return items.value[index]
     }
     
-   
-    
     mutating func errorHandler(onError: @escaping (Error) -> Void) {
         self.errorHandler = onError
-    }
-    
-    func getHeaderImage() -> String {
-        return self.headerImage
-    }
-
-    mutating func setHeaderImage(imageName name:String) {
-        self.headerImage = name
     }
 
     mutating func selectionHandler(onItemSelected: @escaping (Int) -> Void) {
         self.selectionHandler = onItemSelected
     }
     
-    func itemSelected(atIndex index:Int){
+    func itemSelected(atIndex index: Int) {
         self.selectionHandler?(index)
     }
 }

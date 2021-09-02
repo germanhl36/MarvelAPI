@@ -1,0 +1,1446 @@
+{
+"code": 200,
+"status": "Ok",
+"copyright": "© 2021 MARVEL",
+"attributionText": "Data provided by Marvel. © 2021 MARVEL",
+"attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2021 MARVEL</a>",
+"etag": "75a82e0a54621365b8253533ae2081a073b883be",
+"data": {
+"offset": 0,
+"limit": 10,
+"total": 40740,
+"count": 10,
+"results": [
+{
+"id": 49009,
+"digitalId": 34155,
+"title": "100th Anniversary Special (2014) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "- Have the X-Men of 2061 achieved Xavier's dream of mutants and humans living in harmony? Or will there always be a need for the X-Men?",
+"modified": "2014-07-16T13:12:43-0400",
+"isbn": "",
+"upc": "75960608000700311",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 32,
+"textObjects": [],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49009",
+"urls": [],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/18454",
+"name": "100th Anniversary Special (2014)"
+},
+"variants": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49011",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49010",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49008",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49007",
+"name": "100th Anniversary Special (2014) #1"
+}
+],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2014-07-16T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2014-07-02T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-01-12T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2014-07-16T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 3.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/a0/53bae9abd8e6f",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/a0/53bae9abd8e6f",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/536cffa4cbc98",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49009/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/13138",
+"name": "In-Hyuk Lee",
+"role": "penciller (cover)"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/11788",
+"name": "Jennifer Van Meter",
+"role": "writer"
+}
+],
+"returned": 2
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49009/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49009/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110105",
+"name": "cover from 100th Anniversary Special (2014) #3",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110106",
+"name": "story from 100th Anniversary Special (2014) #3",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49009/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 49007,
+"digitalId": 34097,
+"title": "100th Anniversary Special (2014) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "A REMARKABLE ARTIFACT FROM THE FUTURE OF MARVEL COMICS! It&#39;s 2061 and the world of the Fantastic Four has turned upside-down, complete with the granddaughter of Doom...and the Richards-Banner twins",
+"modified": "2014-07-16T13:11:56-0400",
+"isbn": "",
+"upc": "75960608000700111",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 32,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "A REMARKABLE ARTIFACT FROM THE FUTURE OF MARVEL COMICS! It&#39;s 2061 and the world of the Fantastic Four has turned upside-down, complete with the granddaughter of Doom...and the Richards-Banner twins"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49007",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/49007/100th_anniversary_special_2014_1?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=34097&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/18454",
+"name": "100th Anniversary Special (2014)"
+},
+"variants": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49011",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49010",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49009",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49008",
+"name": "100th Anniversary Special (2014) #1"
+}
+],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2014-07-02T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2014-06-18T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-11-10T00:00:00-0500"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 3.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/53a85058a61f0",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/53a85058a61f0",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/30/536cff2402418",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49007/creators",
+"items": [],
+"returned": 0
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49007/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49007/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110101",
+"name": "cover from 100th Anniversary Special (2014) #1",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110102",
+"name": "story from 100th Anniversary Special (2014) #1",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49007/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 49011,
+"digitalId": 34160,
+"title": "100th Anniversary Special (2014) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "Just in time for the release of their SEVENTH epic motion picture, the Guardians of the Galaxy are celebrating their 100th Anniversary...by taking on the THE SILVER GALACTUS!",
+"modified": "2014-07-21T11:39:24-0400",
+"isbn": "",
+"upc": "75960608000700511",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 32,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "Just in time for the release of their SEVENTH epic motion picture, the Guardians of the Galaxy are celebrating their 100th Anniversary...by taking on the THE SILVER GALACTUS!"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49011",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/49011/100th_anniversary_special_2014_1?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/100th-Anniversary-Special-1/digital-comic/34160?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=34160&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/34160?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/18454",
+"name": "100th Anniversary Special (2014)"
+},
+"variants": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49010",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49009",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49008",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49007",
+"name": "100th Anniversary Special (2014) #1"
+}
+],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2014-07-30T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2014-07-16T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-01-26T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2014-07-30T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 3.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/53cd2c7612d2f",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/53cd2c7612d2f",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/b0/536d00217d190",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49011/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/485",
+"name": "Andy Lanning",
+"role": "writer"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/12392",
+"name": "David Lopez",
+"role": "penciller (cover)"
+}
+],
+"returned": 2
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49011/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49011/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110109",
+"name": "cover from 100th Anniversary Special (2014) #5",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110110",
+"name": "story from 100th Anniversary Special (2014) #5",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49011/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 49008,
+"digitalId": 34110,
+"title": "100th Anniversary Special (2014) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "It&#39;s 100 years after the wall-crawler&#39;s creation, but when the Kingpin has taken Spider-Man&#39;s ultra-powerful techno-symbiote suit, Spider-Man will need to prove once again why he is the world&#39;s greatest super hero.",
+"modified": "2014-07-16T13:12:20-0400",
+"isbn": "",
+"upc": "75960608000700211",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 32,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "It&#39;s 100 years after the wall-crawler&#39;s creation, but when the Kingpin has taken Spider-Man&#39;s ultra-powerful techno-symbiote suit, Spider-Man will need to prove once again why he is the world&#39;s greatest super hero."
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49008",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/49008/100th_anniversary_special_2014_1?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/100th-Anniversary-Special-1/digital-comic/34110?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=34110&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/34110?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/18454",
+"name": "100th Anniversary Special (2014)"
+},
+"variants": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49011",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49010",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49009",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49007",
+"name": "100th Anniversary Special (2014) #1"
+}
+],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2014-07-09T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2014-06-25T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-01-05T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2014-07-09T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 3.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/20/53b1be72eec81",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/20/53b1be72eec81",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/536cff66debd3",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49008/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/13138",
+"name": "In-Hyuk Lee",
+"role": "penciller (cover)"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/9432",
+"name": "Sean Ryan",
+"role": "writer"
+}
+],
+"returned": 2
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49008/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49008/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110103",
+"name": "cover from 100th Anniversary Special (2014) #2",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110104",
+"name": "story from 100th Anniversary Special (2014) #2",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49008/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 49010,
+"digitalId": 34127,
+"title": "100th Anniversary Special (2014) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "CELEBRATE 100 YEARS OF EARTH&#39;S MIGHTIEST HEROES &ndash; THE AVENGERS! Following the failed Badoon invasion of Earth and America&#39;s disappearance into the Negative Zone, how will the Avengers of 2061 cope?!",
+"modified": "2014-07-16T13:13:34-0400",
+"isbn": "",
+"upc": "75960608000700411",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 32,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "CELEBRATE 100 YEARS OF EARTH&#39;S MIGHTIEST HEROES &ndash; THE AVENGERS! Following the failed Badoon invasion of Earth and America&#39;s disappearance into the Negative Zone, how will the Avengers of 2061 cope?!"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49010",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/49010/100th_anniversary_special_2014_1?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/100th-Anniversary-Special-1/digital-comic/34127?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=34127&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/34127?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/18454",
+"name": "100th Anniversary Special (2014)"
+},
+"variants": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49011",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49009",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49008",
+"name": "100th Anniversary Special (2014) #1"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/49007",
+"name": "100th Anniversary Special (2014) #1"
+}
+],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2014-07-23T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2014-07-09T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-01-19T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2014-07-23T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 3.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/53c406e09649c",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/53c406e09649c",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/40/536cffe2a8b13",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49010/creators",
+"items": [],
+"returned": 0
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49010/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49010/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110107",
+"name": "cover from 100th Anniversary Special (2014) #4",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/110108",
+"name": "story from 100th Anniversary Special (2014) #4",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/49010/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 37253,
+"digitalId": 23162,
+"title": "15 Love (2011) #3",
+"issueNumber": 3,
+"variantDescription": "",
+"description": "Between a possible modeling deal and the boy she's interested in, is it any wonder Mill's trainer thinks she's not focused? But if she wants to prove herself she needs to get her head in the game fast and turn things around!",
+"modified": "2011-08-05T12:00:28-0400",
+"isbn": "",
+"upc": "5960605470-00311",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 48,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "It has come to this! The Mighty Marvel Age of Tennis Manga comes to a pulse pounding conclusion as Mill Collins finds herself in the Wayde Tennis Academy's big tournament...but her chances are looking slim. Between a possible modeling deal and the boy she's interested in, is it any wonder her trainer thinks she's not focused? But if she wants to prove herself she needs to get her head in the game fast and turn things around!"
+},
+{
+"type": "issue_preview_text",
+"language": "en-us",
+"text": "Between a possible modeling deal and the boy she's interested in, is it any wonder Mill's trainer thinks she's not focused? But if she wants to prove herself she needs to get her head in the game fast and turn things around!"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/37253",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/37253/15_love_2011_3?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/15-Love-3/digital-comic/23162?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=23162&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/23162?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/13379",
+"name": "15 Love (2011)"
+},
+"variants": [],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2011-08-03T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2011-07-19T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2012-05-14T00:00:00-0400"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2011-09-06T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 4.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 1.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5601c38d760b9",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5601c38d760b9",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37253/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/274",
+"name": "Tommy Ohtsuka",
+"role": "penciller"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/496",
+"name": "Andi Watson",
+"role": "writer"
+}
+],
+"returned": 2
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37253/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37253/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82484",
+"name": "Cover #82484",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82485",
+"name": "Interior #82485",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37253/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 37254,
+"digitalId": 21429,
+"title": "15 Love (2011) #1",
+"issueNumber": 1,
+"variantDescription": "",
+"description": "Teenage tennis action as only Marvel can deliver! Tennis is Mill Collins whole life...but as the lowest ranking student at the Wayde Tennis Academy, she's about to lose her scholarship, and any chance at reaching her dream. What will she do next?",
+"modified": "2013-03-05T19:42:21-0500",
+"isbn": "",
+"upc": "5960605470-00111",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 48,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "TEENAGE TENNIS ACTION AS ONLY MIGHTY MARVEL CAN DELIVER! Tennis is Mill Collins whole life...but as the lowest ranking student at the Wayde Tennis Academy, she's about to lose her scholarship, and any chance at reaching her dream.  Her coach has given up on her, her aunt thinks she doesn't try, and the only one who believes in her is a washed-up drunk...how wrong can things possible go before Mill catches a break?"
+},
+{
+"type": "issue_preview_text",
+"language": "en-us",
+"text": "Teenage tennis action as only Marvel can deliver! Tennis is Mill Collins whole life...but as the lowest ranking student at the Wayde Tennis Academy, she's about to lose her scholarship, and any chance at reaching her dream. What will she do next?"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/37254",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/37254/15_love_2011_1?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=21429&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/13379",
+"name": "15 Love (2011)"
+},
+"variants": [],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2011-06-08T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2011-05-24T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2015-09-21T15:31:41-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 4.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 1.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/d0/5601c374d0812",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/f/d0/5601c374d0812",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/d/00/4d7a87fed73f1",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37254/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/274",
+"name": "Tommy Ohtsuka",
+"role": "penciller"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/496",
+"name": "Andi Watson",
+"role": "writer"
+}
+],
+"returned": 2
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37254/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37254/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82486",
+"name": "15-Love (2011) #1",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82487",
+"name": "Interior #82487",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37254/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 37251,
+"digitalId": 22411,
+"title": "15 Love (2011) #2",
+"issueNumber": 2,
+"variantDescription": "",
+"description": "Millie's new coach, Walt, has her working day and night, training to get her off the bottom of the academy's ranking.Â  But when a photographer takes an interest in Mill, a whole new wrinkle is added into her life.",
+"modified": "2013-03-06T10:11:51-0500",
+"isbn": "",
+"upc": "5960605470-00211",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 48,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "Millie Collins is finding that her dream of playing tennis is not as easy as she's thought.  Her new coach, Walt, has her working day and night, training to get her off the bottom of the Wayde Tennis Academy's ranking.  But when a photographer takes an interest in Mill, a whole new wrinkle is added into her life. Can she make time for modeling and still save herself from being expelled?"
+},
+{
+"type": "issue_preview_text",
+"language": "en-us",
+"text": "Millie's new coach, Walt, has her working day and night, training to get her off the bottom of the academy's ranking.Â  But when a photographer takes an interest in Mill, a whole new wrinkle is added into her life."
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/37251",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/37251/15_love_2011_2?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/15-Love-2/digital-comic/22411?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=22411&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/22411?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/13379",
+"name": "15 Love (2011)"
+},
+"variants": [],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2011-07-06T00:00:00-0400"
+},
+{
+"type": "focDate",
+"date": "2011-06-21T00:00:00-0400"
+},
+{
+"type": "unlimitedDate",
+"date": "2012-05-14T00:00:00-0400"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2011-08-02T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 4.99
+},
+{
+"type": "digitalPurchasePrice",
+"price": 1.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5601c35a91d15",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5601c35a91d15",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/d/10/4d9f1f15f29ef",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 3,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37251/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/274",
+"name": "Tommy Ohtsuka",
+"role": "penciller"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/496",
+"name": "Andi Watson",
+"role": "writer"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/8822",
+"name": "Jordan White",
+"role": "editor"
+}
+],
+"returned": 3
+},
+"characters": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37251/characters",
+"items": [],
+"returned": 0
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37251/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82480",
+"name": "Cover #82480",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/82481",
+"name": "Interior #82481",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/37251/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 146,
+"digitalId": 6314,
+"title": "1602 (2003) #6",
+"issueNumber": 6,
+"variantDescription": "",
+"description": "Cardstock cover by SCOTT MCKOWEN\r\nDoctor Strange goes to the moon, while our heroes take on Doom and his Vulture squadron!\r\n32 PGS./MARVEL PSR...$3.50",
+"modified": "2018-03-07T15:58:03-0500",
+"isbn": "",
+"upc": "5960605372-01811",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 0,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "Cardstock cover by SCOTT MCKOWEN\r\nDoctor Strange goes to the moon, while our heroes take on Doom and his Vulture squadron!\r\n32 PGS./MARVEL PSR...$3.50"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/146",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/146/1602_2003_6?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/1602-6/digital-comic/6314?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=6314&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/6314?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/489",
+"name": "1602 (2003 - 2004)"
+},
+"variants": [],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2004-01-14T00:00:00-0500"
+},
+{
+"type": "focDate",
+"date": "-0001-11-30T00:00:00-0500"
+},
+{
+"type": "unlimitedDate",
+"date": "2010-01-14T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2010-11-02T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.5
+},
+{
+"type": "digitalPurchasePrice",
+"price": 1.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/a0/5aa052400468e",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/2/a0/5aa052400468e",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bc6ab8f52965",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 3,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/146/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/567",
+"name": "Neil Gaiman",
+"role": "writer"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/175",
+"name": "Andy Kubert",
+"role": "penciller"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/566",
+"name": "Scott McKowen",
+"role": "penciller (cover)"
+}
+],
+"returned": 3
+},
+"characters": {
+"available": 1,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/146/characters",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009661",
+"name": "The Watchers"
+}
+],
+"returned": 1
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/146/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/1770",
+"name": "Cover #1770",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/1771",
+"name": "Interior #1771",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/146/events",
+"items": [],
+"returned": 0
+}
+},
+{
+"id": 145,
+"digitalId": 6315,
+"title": "1602 (2003) #7",
+"issueNumber": 7,
+"variantDescription": "",
+"description": "Secrets are revealed and coffins are closed as two of our 17th-century Marvel heroes lose their lives in the penultimate chapter to this major, best-selling limited series event!\r\n32 PGS./MARVEL PSR...$3.50",
+"modified": "2013-07-30T10:52:58-0400",
+"isbn": "",
+"upc": "5960605499-00111",
+"diamondCode": "",
+"ean": "",
+"issn": "",
+"format": "Comic",
+"pageCount": 0,
+"textObjects": [
+{
+"type": "issue_solicit_text",
+"language": "en-us",
+"text": "Secrets are revealed and coffins are closed as two of our 17th-century Marvel heroes lose their lives in the penultimate chapter to this major, best-selling limited series event!\r\n32 PGS./MARVEL PSR...$3.50"
+}
+],
+"resourceURI": "http://gateway.marvel.com/v1/public/comics/145",
+"urls": [
+{
+"type": "detail",
+"url": "http://marvel.com/comics/issue/145/1602_2003_7?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "purchase",
+"url": "http://comicstore.marvel.com/1602-7/digital-comic/6315?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "reader",
+"url": "http://marvel.com/digitalcomics/view.htm?iid=6315&utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+},
+{
+"type": "inAppLink",
+"url": "https://applink.marvel.com/issue/6315?utm_campaign=apiRef&utm_source=0ebbdbf0c4ed8bb998df39febe42d02d"
+}
+],
+"series": {
+"resourceURI": "http://gateway.marvel.com/v1/public/series/489",
+"name": "1602 (2003 - 2004)"
+},
+"variants": [],
+"collections": [],
+"collectedIssues": [],
+"dates": [
+{
+"type": "onsaleDate",
+"date": "2004-02-11T00:00:00-0500"
+},
+{
+"type": "focDate",
+"date": "-0001-11-30T00:00:00-0500"
+},
+{
+"type": "unlimitedDate",
+"date": "2010-01-21T00:00:00-0500"
+},
+{
+"type": "digitalPurchaseDate",
+"date": "2010-11-02T00:00:00-0400"
+}
+],
+"prices": [
+{
+"type": "printPrice",
+"price": 3.5
+},
+{
+"type": "digitalPurchasePrice",
+"price": 1.99
+}
+],
+"thumbnail": {
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/568e6b71aabd8",
+"extension": "jpg"
+},
+"images": [
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/568e6b71aabd8",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/51db2241995f7",
+"extension": "jpg"
+},
+{
+"path": "http://i.annihil.us/u/prod/marvel/i/mg/c/d0/4bc6ab93b679f",
+"extension": "jpg"
+}
+],
+"creators": {
+"available": 3,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/145/creators",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/567",
+"name": "Neil Gaiman",
+"role": "writer"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/175",
+"name": "Andy Kubert",
+"role": "penciller"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/creators/566",
+"name": "Scott McKowen",
+"role": "penciller (cover)"
+}
+],
+"returned": 3
+},
+"characters": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/145/characters",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+"name": "Magneto"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/characters/1010697",
+"name": "Virginia Dare"
+}
+],
+"returned": 2
+},
+"stories": {
+"available": 2,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/145/stories",
+"items": [
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/2629",
+"name": "1602 #7",
+"type": "cover"
+},
+{
+"resourceURI": "http://gateway.marvel.com/v1/public/stories/2630",
+"name": "1602 #7",
+"type": "interiorStory"
+}
+],
+"returned": 2
+},
+"events": {
+"available": 0,
+"collectionURI": "http://gateway.marvel.com/v1/public/comics/145/events",
+"items": [],
+"returned": 0
+}
+}
+]
+}
+}
