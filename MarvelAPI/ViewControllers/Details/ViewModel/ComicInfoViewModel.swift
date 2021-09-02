@@ -88,7 +88,9 @@ struct ComicInfoViewModel:ItemDetailProtocol {
         attStr.append(attPageStr)
         return attStr
     }
-    
+    func getPageCount() -> Int {
+        return self.pageCount
+    }
     func getThumbnail() -> String {
         return self.thumbnail
     }

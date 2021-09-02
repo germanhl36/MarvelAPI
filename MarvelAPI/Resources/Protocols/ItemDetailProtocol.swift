@@ -11,6 +11,7 @@ protocol ItemDetailProtocol {
     func getDescription() -> NSAttributedString
     func getCreators() -> [NSAttributedString]
     func getPageCount() -> NSAttributedString
+    func getPageCount() -> Int
     func getThumbnail() -> String
     func getImages() -> [String]
 }

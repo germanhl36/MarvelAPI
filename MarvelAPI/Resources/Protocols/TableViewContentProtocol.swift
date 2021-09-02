@@ -11,7 +11,10 @@ protocol TableContentProtocol {
     func getItems(offset:Int)
     func reloadDataIfNeeded(action:@escaping ()->())
     func getCount() -> Int
-    func getCellVM(at index:Int) -> ItemDetailProtocol
+    func getItemVM(at index:Int) -> ItemDetailProtocol
     mutating func errorHandler(onError: @escaping (Error) -> Void)
-    func getHeaderImage() -> UIImage
+    mutating func selectionHandler(onItemSelected: @escaping (Int) -> Void)
+    func itemSelected(atIndex index:Int)
+    func getHeaderImage() -> String
+    mutating func setHeaderImage(imageName name:String)
 }

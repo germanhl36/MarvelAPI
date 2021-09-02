@@ -15,6 +15,10 @@ class DetailsViewController: BaseViewController {
     @IBOutlet weak var imagesCollectionView: UICollectionView!
     @IBOutlet weak var contentTextView: UITextView!
     
+    @IBOutlet weak var imagesTitleLabel: UILabel!
+    
+    @IBOutlet weak var closeButton: UIButton!
+    private var thumbnailHeight:CGFloat = 140.0
     private let sectionInsets = UIEdgeInsets(
       top: 0,
       left: 0,
@@ -33,7 +37,7 @@ class DetailsViewController: BaseViewController {
         
     }
     
-    @IBAction func CloseButtonTapped(_ sender: Any) {
+    @IBAction func closeButtonTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
 }
@@ -54,22 +58,17 @@ extension DetailsViewController {
         
         content.append(self.vm.getDescription())
         content.append(NSAttributedString(string: "\n\n"))
-
-        content.append(self.vm.getPageCount())
-
+        if self.vm.getPageCount() != 0 {
+            content.append(self.vm.getPageCount())
+            content.append(NSAttributedString(string: "\n\n"))
+        }
         let creatorList = self.vm.getCreators()
         creatorList.forEach { attStr in
-            content.append(NSAttributedString(string: "\n\n"))
 
             content.append(attStr)
+            content.append(NSAttributedString(string: "\n\n"))
 
         }
-        
-        let attributesForImages:[NSAttributedString.Key : Any] = [
-            .foregroundColor: UIColor.white ,
-            .font: UIFont.systemFont(ofSize: 14, weight: .bold)
-        ]
-        content.append(NSAttributedString(string: "\n\nImages:\n\n",attributes: attributesForImages))
 
         
         contentTextView.attributedText = content
@@ -82,13 +81,21 @@ extension DetailsViewController {
         
         let fixedWidth = contentTextView.frame.size.width
         let newSize = contentTextView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude))
-        contentTextView.heightAnchor.constraint(equalToConstant: newSize.height).isActive = true
+        var newHeight = newSize.height + 20
+        if newHeight < thumbnailHeight {
+            newHeight = thumbnailHeight + 20
+        }
+        contentTextView.heightAnchor.constraint(equalToConstant: newHeight).isActive = true
         contentTextView.layoutIfNeeded()
         
-
+        if self.vm.getImages().count == 0 {
+            self.imagesTitleLabel.isHidden = true
+        }
         
         scrollContentView.layoutIfNeeded()
         scrollView.layoutIfNeeded()
+        
+        
         self.imagesCollectionView.reloadData()
     }
 }
@@ -136,6 +143,6 @@ extension DetailsViewController:UICollectionViewDelegateFlowLayout {
        layout collectionViewLayout: UICollectionViewLayout,
        minimumLineSpacingForSectionAt section: Int
      ) -> CGFloat {
-       return sectionInsets.left
+       return 10
      }
 }

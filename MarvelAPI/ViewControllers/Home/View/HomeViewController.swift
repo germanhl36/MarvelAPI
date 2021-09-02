@@ -23,7 +23,7 @@ final class HomeViewController: BaseViewController {
 // MARK: - Life Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.headerImage.image = self.vm.getHeaderImage()
+        self.headerImage.image = UIImage(named: self.vm.getHeaderImage())
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -53,6 +53,9 @@ extension HomeViewController {
             self?.showErrorDialog(error: error)
         }
         
+        self.vm.selectionHandler {[weak self]  index in
+            self?.selectedItem(index: index)
+        }
     }
 }
 
@@ -87,22 +90,26 @@ extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return vm.getCount()
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cellRect = tableView.rectForRow(at: indexPath)
         let yPosition = cellRect.origin.y + (cellRect.size.height / 2.0)
         let xPosition = cellRect.size.width / 2.0
         self.cellPoisition = CGPoint(x: xPosition, y: yPosition)
         tableView.deselectRow(at: indexPath, animated: false)
-        let vm = self.vm.getCellVM(at: indexPath.row)
+        self.vm.itemSelected(atIndex: indexPath.row)
+    }
+    
+    func selectedItem(index:Int) {
         guard let detailVC = self.storyboard?.instantiateViewController(identifier: "DetailsViewController") as? DetailsViewController else {
             return
         }
+        let vm = self.vm.getItemVM(at: index)
         detailVC.modalPresentationStyle = .popover
         detailVC.transitioningDelegate = self
         detailVC.modalPresentationStyle = .custom
         detailVC.config(withVM: vm)
         self.present(detailVC, animated: true, completion: nil)
-        
     }
     
 }
@@ -111,7 +118,7 @@ extension HomeViewController: UITableViewDelegate {
 extension HomeViewController:UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ComicTableViewCell.cellID) as? ComicTableViewCell  ?? ComicTableViewCell(style: .default, reuseIdentifier: ComicTableViewCell.cellID)
-        let cellVM = vm.getCellVM(at: indexPath.row)
+        let cellVM = vm.getItemVM(at: indexPath.row)
         cell.config(with: cellVM)
         if indexPath.row == (self.vm.getCount() - 1) {
             self.loadMore()
@@ -125,17 +132,6 @@ extension HomeViewController {
     private func loadMore() {
         let currentCount = self.vm.getCount() + 1
         self.vm.getItems(offset: currentCount)
-    }
-}
-
-// MARK: - Message Dialogs
-extension HomeViewController {
-    private func showErrorDialog(error:Error) {
-        let alert = UIAlertController(title: "Marvel", message: error.localizedDescription, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
-            NSLog("The \"OK\" alert occured.")
-        }))
-        self.present(alert, animated: true, completion: nil)
     }
 }
 

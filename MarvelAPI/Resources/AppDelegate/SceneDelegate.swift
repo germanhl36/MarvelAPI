@@ -19,7 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         if let homeVC = self.window?.rootViewController as? HomeViewController {
-            homeVC.config(withVM: HomeViewModel(headerImage: UIImage(named: "marvel_header")!))
+            var homeVM = HomeViewModel()
+            homeVM.setHeaderImage(imageName: "marvel_header")
+            homeVC.config(withVM: homeVM)
         }
 
     }
