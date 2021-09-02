@@ -234,7 +234,6 @@
 		398C8D6726DAF5B200ACE6E8 /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				398C8D6A26DAF5D900ACE6E8 /* Model */,
 				398C8D6926DAF5CD00ACE6E8 /* View */,
 				398C8D6826DAF5BC00ACE6E8 /* ViewModel */,
 			);
@@ -256,13 +255,6 @@
 				398C8D7F26DD422900ACE6E8 /* ImagesCollectionViewCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		398C8D6A26DAF5D900ACE6E8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		398C8D6E26DAF63000ACE6E8 /* Storyboards */ = {
